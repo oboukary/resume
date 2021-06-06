@@ -1,0 +1,181 @@
+baseURL: http://example.org/
+languageCode: en
+title: ''
+theme: hugo-devresume-theme
+googleAnalytics: UA-XXXXXXX-Y
+params:
+  author: CowboySmall
+  awards:
+    enable: yes
+    list:
+      - body: Microsoft lorem ipsum
+        date: '2019'
+        name: Award Lorem Ipsum
+      - body: Oracle Aenean
+        date: '2017'
+        name: Award Donec Sodales
+  contact:
+    enable: yes
+    list:
+      - icon: fas fa-phone-square
+        text: 0123 4567 890
+        url: tel:#
+      - icon: fas fa-envelope-square
+        text: simon.doe@yourwebsite.com
+        url: mailto:#
+      - icon: fas fa-globe
+        text: www.yourwebsite.com
+        url: '#'
+    location: Courbevoie
+  description: DevResume - Bootstrap 4 Resume/CV Template For Software Developers
+  education:
+    enable: yes
+    list:
+      - dates: 2010 - 2011
+        degree: MSc in Computer Science
+        university: University College London
+      - dates: 2007 - 2010
+        degree: BSc Maths and Physics
+        university: Imperial College London
+  experience:
+    enable: yes
+    list:
+      - company: Caisse centrale de la MSA
+        dates: 2019 - Present
+        details: Role description goes here ipsum dolor sit amet, consectetuer adipiscing
+          elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+          penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec
+          quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede
+          justo, fringilla vel. Lorem ipsum dolor sit amet, consectetuer adipiscing
+          elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+          penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec
+          quam felis.
+        items:
+          - details: Lorem ipsum dolor sit amet, consectetuer.
+          - details: Aenean commodo ligula eget dolor.
+          - details: Etiam ultricies nisi vel augue.
+        title: Senior Software Engineer
+      - company: Apple
+        dates: 2016 - 2019
+        details: Role description goes here ipsum dolor sit amet, consectetuer adipiscing
+          elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+          penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec
+          quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede
+          justo, fringilla vel.
+        items:
+          - details: Lorem ipsum dolor sit amet, consectetuer.
+          - details: Aenean commodo ligula eget dolor.
+        title: Lead Software Developer
+      - company: Dropbox
+        dates: 2014 - 2016
+        details: Role description goes here ipsum dolor sit amet, consectetuer adipiscing
+          elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+          penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+        title: Senior Software Developer
+      - company: Uber
+        dates: 2013 - 2014
+        details: Role description goes here ipsum dolor sit amet, consectetuer adipiscing
+          elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+          penatibus.
+        title: Senior Developer
+      - company: Amazon
+        dates: 2014 - 2016
+        details: Role description goes here ipsum dolor sit amet, consectetuer adipiscing
+          elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+          penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+        title: Backend Developer
+      - company: Startup
+        dates: 2013 - 2014
+        details: Role description goes here ipsum dolor sit amet, consectetuer adipiscing
+          elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+          penatibus.
+        title: Frontend Developer
+  information:
+    enable: yes
+    list:
+      - items:
+          - details: 2018 · Lorem Ipsum
+          - details: 2016 · Sed Fringilla
+        title: Papers
+      - details: Climbing, Snowboarding, Photography, Travelling
+        title: Interests
+  interests:
+    enable: yes
+    list:
+      - name: Climbing
+      - name: Snowboarding
+      - name: Photography
+      - name: Travelling
+  languages:
+    enable: yes
+    list:
+      - level: Native
+        name: English
+      - level: Professional
+        name: Spanish
+  primaryColor: '#54B689'
+  profile:
+    avatar: avatar.png
+    enable: yes
+    name: Boukary Ouedraogo
+    tagline: Statisticien | Data scientist
+  projects:
+    enable: yes
+    list:
+      - meta: Open Source
+        tagline: You can use this section for your side projects. Lorem ipsum dolor
+          sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+          Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes,
+          nascetur ridiculus mus.
+        title: Project Lorem Ipsum
+      - meta: Open Source
+        tagline: You can use this section for your side projects. Cras dapibus. Vivamus
+          elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula,
+          porttitor eu, consequat vitae, eleifend ac, enim.
+        title: Project Sed Fringilla
+      - meta: Open Source
+        tagline: You can use this section for your side projects. Cras dapibus. Vivamus
+          elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula,
+          porttitor eu, consequat vitae, eleifend ac, enim.
+        title: Project Praesent
+  skills:
+    enable: yes
+    list:
+      - items:
+          - details: JavaScript/Angular/React/Vue
+          - details: Python/Ruby/PHP
+          - details: Node.js/ASP.NET
+          - details: PostgreSQL/MySQL
+          - details: Object-oriented design
+          - details: Design and implement database structures
+          - details: Lead and deliver complex software systems
+        title: Technical
+      - items:
+          - details: Effective communication
+          - details: Team player
+          - details: Strong problem solver
+          - details: Good time management
+        title: Professional
+  social:
+    enable: yes
+    list:
+      - icon: fab fa-github-square
+        title: username
+        url: //github.com/username
+      - icon: fab fa-linkedin
+        title: username
+        url: //linkedin.com/in/username
+      - icon: fab fa-twitter-square
+        title: '@username'
+        url: //twitter.com/username
+  summary:
+    enable: yes
+    text: Summarise your career here. Donec quam felis, ultricies nec, pellentesque
+      eu. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+      ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis
+      parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,
+      pellentesque eu, pretium quis, sem.  Maecenas nec odio et ante tincidunt tempus.
+      Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit
+      amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet
+      nibh.
+  textPrimaryColor: '#292929'
