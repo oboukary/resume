@@ -4,7 +4,7 @@ title: ''
 theme: hugo-devresume-theme
 googleAnalytics: UA-XXXXXXX-Y
 params:
-  author: CowboySmall
+  author: Boukary Ouedraogo
   awards:
     enable: yes
     list:
