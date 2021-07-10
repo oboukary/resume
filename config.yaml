@@ -37,6 +37,9 @@ params:
       - dates: 2012 - 2015
         degree: Diplôme d'ingénieur en statistique et économie-appliquée
         university: INSEA - Rabat
+      - dates: 2010 - 2012
+        degree: DEUG en mathématiques fondamentales
+        university: Université Ibn Tofail
   experience:
     enable: yes
     list:
