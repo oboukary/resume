@@ -1,5 +1,5 @@
 baseURL: https://ouedraogoboukary.netlify.app/
-languageCode: en
+languageCode: fr
 title: ''
 theme: hugo-devresume-theme
 googleAnalytics: UA-XXXXXXX-Y
@@ -18,25 +18,25 @@ params:
     enable: yes
     list:
       - icon: fas fa-phone-square
-        text: 0123 4567 890
+        text: 06 60 78 66 82
         url: tel:#
       - icon: fas fa-envelope-square
-        text: simon.doe@yourwebsite.com
+        text: bo.ouedraogo7@gmai.com
         url: mailto:#
       - icon: fas fa-globe
-        text: www.yourwebsite.com
-        url: '#'
+        text: www.oboukary.com
+        url: 'www.oboukary.com'
     location: Courbevoie
   description: DevResume - Bootstrap 4 Resume/CV Template For Software Developers
   education:
     enable: yes
     list:
-      - dates: 2010 - 2011
-        degree: MSc in Computer Science
-        university: University College London
-      - dates: 2007 - 2010
-        degree: BSc Maths and Physics
-        university: Imperial College London
+      - dates: 2016 - 2017
+        degree: Master en modélisation prospective
+        university: Université Paris Saclay
+      - dates: 2012 - 2015
+        degree: Diplôme d'ingénieur en statistique et économie-appliquée
+        university: INSEA - Rabat
   experience:
     enable: yes
     list:
@@ -109,10 +109,10 @@ params:
   languages:
     enable: yes
     list:
-      - level: Native
-        name: English
-      - level: Professional
-        name: Spanish
+      - level: 
+        name:  Français
+      - level: Professionel
+        name: Anglais
   primaryColor: '#54B689'
   profile:
     avatar: avatar.png
@@ -142,13 +142,13 @@ params:
     enable: yes
     list:
       - items:
-          - details: JavaScript/Angular/React/Vue
-          - details: Python/Ruby/PHP
-          - details: Node.js/ASP.NET
-          - details: PostgreSQL/MySQL
-          - details: Object-oriented design
-          - details: Design and implement database structures
-          - details: Lead and deliver complex software systems
+          - details: Python
+          - details: R
+          - details: SAS
+          - details: PostgreSQL
+          - details: SQL
+          - details: Power BI
+          - details: Cognos
         title: Technical
       - items:
           - details: Effective communication
@@ -157,25 +157,24 @@ params:
           - details: Good time management
         title: Professional
   social:
-    enable: yes
+    enable: no
     list:
       - icon: fab fa-github-square
-        title: username
-        url: //github.com/username
+        title: oboukary
+        url: //github.com/oboukary
       - icon: fab fa-linkedin
-        title: username
-        url: //linkedin.com/in/username
+        title: oboukary
+        url: //linkedin.com/in/oboukary
       - icon: fab fa-twitter-square
-        title: '@username'
-        url: //twitter.com/username
+        title: '@Boukary16'
+        url: //twitter.com/Boukary16
   summary:
     enable: yes
-    text: Summarise your career here. Donec quam felis, ultricies nec, pellentesque
-      eu. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
-      ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis
-      parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.  Maecenas nec odio et ante tincidunt tempus.
-      Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit
-      amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet
-      nibh.
+    text: Je  suis statisticien-économiste 
+          avec plus de 3 ans d’expériences dans la  manipulation de 
+          la  donnée. J’ai  une  forte appétence  pour  les sujets des 
+          sciences de  donnée, de  machine learning, de data visualisation etc.
+          et leurs applicationsà  la  lutte  contre  la  fraude.  
+          Je m’intéresse également aux applications du deep learning au domaine
+          de la finance
   textPrimaryColor: '#292929'
